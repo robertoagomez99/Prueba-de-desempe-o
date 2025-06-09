@@ -1,12 +1,11 @@
-# 🌍 Explora el Mundo - Proyecto Web de Viajes
+#  Explora el Mundo - Proyecto de portafolio
 
-Bienvenido al proyecto **"Explora el Mundo"**, un sitio web desarrollado como parte de una prueba de evaluación técnica en el módulo de **Desarrollo de Software**. Este proyecto refleja el uso adecuado de HTML5 semántico, CSS3 moderno y diseño responsivo, aplicando buenas prácticas en codificación, organización y diseño visual.
 
 ---
 
 ## 🎯 Objetivo del Proyecto
 
-El objetivo de este sitio es mostrar una maqueta funcional y visualmente atractiva de una agencia de viajes, con:
+El objetivo de este sitio es mostrar una maqueta funcional y visualmente atractiva de un portafolio, con:
 
 - Estructura semántica clara.
 - Diseño moderno y adaptativo.
@@ -26,7 +25,7 @@ El objetivo de este sitio es mostrar una maqueta funcional y visualmente atracti
   - `Transiciones` y `Animaciones` para efectos visuales.
   - `Background: linear-gradient` para mejorar el diseño visual.
 
-- **Imágenes externas optimizadas** desde [Unsplash](https://unsplash.com/) para simular contenido real.
+
 
 ---
 
@@ -35,7 +34,7 @@ El objetivo de este sitio es mostrar una maqueta funcional y visualmente atracti
 ```
 explora-el-mundo/
 ├── index.html        # Página principal con estructura semántica
-├── estilos.css       # Estilos organizados por secciones y responsivo
+├── style.css       # Estilos organizados por secciones y responsivo
 └── README.md         # Documentación técnica del proyecto
 ```
 
@@ -44,8 +43,7 @@ explora-el-mundo/
 ## 🖥️ Contenido y Estructura
 
 ### 1. `header`
-- Contiene el logotipo y el menú de navegación principal.
-- El logotipo es una imagen circular representativa.
+- Contiene el logotipo y el menú de navegación principal..
 
 ### 2. `main`
 - Se divide en varias secciones semánticas:
@@ -54,11 +52,10 @@ explora-el-mundo/
 - Galería de imágenes de viajes.
 - Implementación de `grid` responsivo con efecto `hover`.
 
-#### 🔹 Sección `#destinos`
-- Tarjetas (`article`) de destinos turísticos usando `grid`.
+#### 🔹 Sección `#proyecto`
 - Imágenes con textos descriptivos y animación al pasar el cursor.
 
-#### 🔹 Sección `#blog`
+#### 🔹 Sección `#biografia`
 - Artículos informativos del blog.
 - Uso de `article` para estructurar contenido informativo.
 
@@ -127,16 +124,5 @@ Si vas a presentar este proyecto, puedes sustentar con los siguientes puntos:
 Desarrollado por **[Tu Nombre Aquí]** como parte del módulo de **Desarrollo de Software** - 2025.
 
 ---
-
-## 🧪 Cómo usar este proyecto
-
-1. Clona o descarga el repositorio.
-2. Abre el archivo `index.html` en tu navegador.
-3. Asegúrate de tener conexión a internet para cargar las imágenes externas.
-4. Explora el diseño en diferentes tamaños de pantalla.
-
----
-
-¡Gracias por revisar este proyecto!
 
 
