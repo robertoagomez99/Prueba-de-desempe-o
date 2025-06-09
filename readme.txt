@@ -1,128 +1,79 @@
-#  Explora el Mundo - Proyecto de portafolio
+## 🎯 Project Objective
 
+The objective of this site is to present a functional and visual mockup of a personal project, with:
 
----
+- Clear semantic structure.
+- Modern and responsive design.
+- Visual interaction through animations.
+- Organization of informative and visual content.
 
-## 🎯 Objetivo del Proyecto
-
-El objetivo de este sitio es mostrar una maqueta funcional y visualmente atractiva de un portafolio, con:
-
-- Estructura semántica clara.
-- Diseño moderno y adaptativo.
-- Interacción visual mediante animaciones.
-- Organización de contenido informativo y visual.
-
----
-
-## 🛠️ Tecnologías Usadas
+## 🛠️ Technologies Used
 
 - **HTML5**
-  - Etiquetas semánticas: `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`.
-  - Accesibilidad y estructura lógica.
+- Semantic tags: `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`.
+- Accessibility and logical structure.
 
-- **CSS3**
-  - Diseño responsivo con `Flexbox`, `Grid` y `Media Queries`.
-  - `Transiciones` y `Animaciones` para efectos visuales.
-  - `Background: linear-gradient` para mejorar el diseño visual.
+- **CSS**
+- Responsive design with `Flexbox`, `Grid`, and `Media Queries`.
+- `Transitions` and `Animations` for visual effects.
+- `Background: linear-gradient` to enhance the visual design.
 
-
-
----
-
-## 📐 Estructura de Archivos
+## 📐 File Structure
 
 ```
-explora-el-mundo/
-├── index.html        # Página principal con estructura semántica
-├── style.css       # Estilos organizados por secciones y responsivo
-└── README.md         # Documentación técnica del proyecto
-```
+explore-the-world/
+├── index.html # Main page with semantic structure
+├── styles.css # Styles organized by sections and responsive
+└── README.md # Technical documentation for the project
 
----
-
-## 🖥️ Contenido y Estructura
+## 🖥️ Content and Structure
 
 ### 1. `header`
-- Contiene el logotipo y el menú de navegación principal..
+- Contains the logo and the main navigation menu.
+- The logo is a representative circular image.
 
 ### 2. `main`
-- Se divide en varias secciones semánticas:
+- Divided into several semantic sections:
 
-#### 🔹 Sección `#inicio`
-- Galería de imágenes de viajes.
-- Implementación de `grid` responsivo con efecto `hover`.
+#### 🔹 `#home` section
+- Implementation of a responsive grid with a hover effect.
 
-#### 🔹 Sección `#proyecto`
-- Imágenes con textos descriptivos y animación al pasar el cursor.
+#### 🔹 `#projects` section
+- Images with descriptive text and hover animation.
 
-#### 🔹 Sección `#biografia`
-- Artículos informativos del blog.
-- Uso de `article` para estructurar contenido informativo.
-
+#### 🔹 `#bio` section
+- A short biography.
 #### 🔹 `aside`
-- Formulario para suscripción de correo.
-- Separación visual con fondo distinto y estilo de `card`.
+- Contact form.
+- Visual separation with a different background and a card style.
 
 ### 3. `footer`
-- Información de derechos y cierre del sitio.
+- Copyright information and site closure.
+
+## 🎨 Responsive Design
+
+- **@media queries applied for different screen widths:
+- Adjustments to the main page layout (from columns to a single column).
+- Navigation menu adapted to mobile devices.
+- Gallery and cards adjusted to fit small screens.
+
+- **auto-fit and `minmax()` used to make images behave smoothly and responsively.
+## ✨ Visual Effects
+
+- **CSS Animations:**
+- `fadeIn`: applied to `header` and `footer` to smooth the fade-in.
+- `scaleIn`: fade-in animation for the logo.
+
+- **Transitions:**
+- Applied to links, buttons, and images to achieve a smooth effect.
+- Hover over images to highlight
+
+## 📱 Responsive View
+
+You can test the design on different devices using your browser's inspection tools or by resizing the window. All content adjusts correctly without losing functionality or design.
 
 ---
 
-## 🎨 Diseño Responsivo
+## 👤 Author
 
-- **`@media queries`** aplicados para diferentes anchos de pantalla:
-  - Ajustes en la disposición del `main` (de columnas a una sola).
-  - Menú de navegación adaptado a dispositivos móviles.
-  - Galería y tarjetas ajustadas a pantallas pequeñas.
-
-- **`auto-fit` y `minmax()`** usados para hacer que las imágenes se comporten de forma fluida y adaptable.
-
----
-
-## ✨ Efectos Visuales
-
-- **Animaciones CSS:**
-  - `fadeIn`: aplicado a `header` y `footer` para suavizar la entrada.
-  - `scaleIn`: animación de entrada para el logo.
-
-- **Transiciones:**
-  - Aplicadas a enlaces, botones e imágenes para lograr un efecto suave.
-  - Hover sobre imágenes para resaltar.
-
----
-
-## 🔎 Buenas Prácticas
-
-- Código limpio y comentado.
-- Separación de contenido y estilo.
-- Nombres de clases descriptivos.
-- Uso eficiente de `grid` y `flex` para estructura adaptable.
-- Enlaces accesibles con buen contraste de color.
-
----
-
-## 📱 Vista Responsiva
-
-Puedes probar el diseño en distintos dispositivos usando las herramientas de inspección del navegador o redimensionando la ventana. Todo el contenido se ajusta correctamente sin perder funcionalidad ni diseño.
-
----
-
-## 🧠 Sustentación Recomendada
-
-Si vas a presentar este proyecto, puedes sustentar con los siguientes puntos:
-
-- Justificación del uso de etiquetas semánticas (mejor accesibilidad y mantenimiento).
-- Explicación de cómo se estructura el diseño para pantallas móviles.
-- Justificar el uso de animaciones como mejora en experiencia del usuario.
-- Hablar del uso de `auto-fit` y `minmax()` como solución escalable.
-- Mencionar cómo separaste responsabilidades: HTML para contenido, CSS para diseño.
-
----
-
-## 👤 Autor
-
-Desarrollado por **[Tu Nombre Aquí]** como parte del módulo de **Desarrollo de Software** - 2025.
-
----
-
-
+Developed by Roberto Gomez as part of the **Software Development** module - 2025.
